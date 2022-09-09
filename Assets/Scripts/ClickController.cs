@@ -39,7 +39,7 @@ public class ClickController : MonoBehaviour
         GameObject[] go;
         // Find the GO with tags
         go = GameObject.FindGameObjectsWithTag(tags);
-
+        //Variable asigned to a random colour
         Color randomColour = Random.ColorHSV();
         // Loop to locate every figure with the tags
         foreach(GameObject figure in go)
